@@ -24,8 +24,6 @@ public:
 	void setPassword(string pass);
 	void setPassword(uint* pass);
 	void setID(int id);
-	void setPublicChatAdress(Chat* chat_ptr);
-	void setPrivateChatAdress(Chat* chat_ptr, int userID);
 	string getName() const;
 	uint* getPassword() const;
 	int getID() const;

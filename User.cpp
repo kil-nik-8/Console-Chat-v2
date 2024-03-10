@@ -88,16 +88,6 @@ void User::setID(int id)
 	_ID = id;
 }
 
-void User::setPublicChatAdress(Chat* chat_ptr)
-{
-	_chats.insert({ 0, chat_ptr });
-}
-
-void User::setPrivateChatAdress(Chat* chat_ptr, int userID)
-{
-	_chats.insert({ userID, chat_ptr });
-}
-
 string User::getName() const
 {
 	return _username;
