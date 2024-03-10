@@ -38,7 +38,7 @@
 	```
   2. Методы:
   	2.1. Геттеры и сеттеры:
-  		```
+     ```
   		- void setName(string username);
    		- void setPassword(char* password, uint pass_length);
   		- void setPassword(string pass);
@@ -48,13 +48,13 @@
   		- uint* getPassword() const;
   		- int getID() const;
   		- void set_chat(Chat* chat, int position) ← добавление указатель на чат в словарь чатов пользователя.
-  		```
+		```
   
   	2.2. Дополнительный функционал:
-
+  	```
   		- int get_chats_count() const ← выисление количества чатов;
   		- int get_receiver_id(int n) ← возвращает значение ID собеседника по порядковому номеру чата;
   		- void show_chat(int num) ← вывод сообщений чата с пользователем с ID = num на экран консоли;
   		- void add_message(string message, int num) ← добавление сообщения в чат от пользователя с ID = num;
  		- void erase() - очистка полей класса;
-   		
+   		```	
