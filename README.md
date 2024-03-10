@@ -38,7 +38,7 @@
 	```
   > И методы:
   	>> Геттеры и сеттеры:
-  
+  > > 
   		```
   		- void setName(string username);
    		- void setPassword(char* password, uint pass_length);
