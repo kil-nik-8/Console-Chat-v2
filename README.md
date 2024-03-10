@@ -20,9 +20,9 @@
 	```
   > А также методы:
   	```
-  	- void SetMessages(string message) ← добавление сообщений (функция нужна для считывания с файла инорфмации);
-  	- void addMessage(string message, string username) ← добавление соообщения от конкретного пользователя;
-  	- void clear() ← очистка сообщений.
+  	[ ] void SetMessages(string message) ← добавление сообщений (функция нужна для считывания с файла инорфмации);
+  	[ ] void addMessage(string message, string username) ← добавление соообщения от конкретного пользователя;
+  	[ ] void clear() ← очистка сообщений.
 	```
 * User
 
