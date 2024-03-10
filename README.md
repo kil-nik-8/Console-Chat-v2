@@ -38,9 +38,10 @@
 	```
   > И методы:
   	>> Геттеры и сеттеры:
+  
   		```
   		- void setName(string username);
-  > >  		- void setPassword(char* password, uint pass_length);
+   		- void setPassword(char* password, uint pass_length);
   		- void setPassword(string pass);
   		- void setPassword(uint* pass);
   		- void setID(int id);
@@ -49,6 +50,7 @@
   		- int getID() const;
   		- void set_chat(Chat* chat, int position) ← добавление указатель на чат в словарь чатов пользователя.
   		```
+  
   	>>  Дополнительный функционал:
   		```
   		- int get_chats_count() const ← выисление количества чатов;
