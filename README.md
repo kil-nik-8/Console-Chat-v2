@@ -39,9 +39,9 @@
   2. Методы:
   > Геттеры и сеттеры:
   	```
-        - void setName(string username);
-        - void setPassword(char* password, uint pass_length);
-        - void setPassword(string pass);
+   - void setName(string username);
+   - void setPassword(char* password, uint pass_length);
+   - void setPassword(string pass);
   	- void setPassword(uint* pass);
   	- void setID(int id);
   	- string getName() const;
