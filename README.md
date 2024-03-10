@@ -51,9 +51,9 @@
   		```
   	%  Дополнительный функционал:
   		```
-  		- int get_chats_count() const;
-  		- int get_receiver_id(int n);
-  		- void show_chat(int num);
-  		- void add_message(string message, int num);
- 		- void erase();
+  		- int get_chats_count() const ← выисление количества чатов;
+  		- int get_receiver_id(int n) ← возвращает значение ID собеседника по порядковому номеру чата;
+  		- void show_chat(int num) ← вывод сообщений чата с пользователем с ID = num на экран консоли;
+  		- void add_message(string message, int num) ← добавление сообщения в чат от пользователя с ID = num;
+ 		- void erase() - очистка полей класса;
    		```
