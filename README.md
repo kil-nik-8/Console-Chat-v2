@@ -29,13 +29,15 @@
   Тип данных пользователей.
 
   Внутри себя имеет поля:
+  	```
   	- int _ID ← ID пользователя;
   	- string _username ← никнейм пользователя;
   	- uint* _pass_hash ← хеш от пароля пользователя;
   	- map<int, Chat*> _chats ← словарь чатов данного пользователя (ключом является ID собеседника, значением - адрес (указатель) нужного чата);
-
+	```
   И методы:
   	% Геттеры и сеттеры:
+  		```
   		- void setName(string username);
   		- void setPassword(char* password, uint pass_length);
   		- void setPassword(string pass);
@@ -45,9 +47,12 @@
   		- uint* getPassword() const;
   		- int getID() const;
   		- void set_chat(Chat* chat, int position) ← добавление указатель на чат в словарь чатов пользователя.
-  	%  
+  		```
+  	%  Дополнительный функционал:
+  	```
   	- int get_chats_count() const;
   	- int get_receiver_id(int n);
   	- void show_chat(int num);
   	- void add_message(string message, int num);
  	- void erase();
+   	```
