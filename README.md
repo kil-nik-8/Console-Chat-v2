@@ -33,7 +33,8 @@
   	- int _ID ← ID пользователя;
   	- string _username ← никнейм пользователя;
   	- uint* _pass_hash ← хеш от пароля пользователя;
-  	- map<int, Chat*> _chats ← словарь чатов данного пользователя (ключом является ID собеседника, значением - адрес (указатель) нужного чата);
+  	- map<int, Chat*> _chats ← словарь чатов данного пользователя 
+	(ключом является ID собеседника, значением - адрес (указатель) нужного чата);
 	```
   И методы:
   	% Геттеры и сеттеры:
@@ -49,10 +50,10 @@
   		- void set_chat(Chat* chat, int position) ← добавление указатель на чат в словарь чатов пользователя.
   		```
   	%  Дополнительный функционал:
-  	```
-  	- int get_chats_count() const;
-  	- int get_receiver_id(int n);
-  	- void show_chat(int num);
-  	- void add_message(string message, int num);
- 	- void erase();
-   	```
+  		```
+  		- int get_chats_count() const;
+  		- int get_receiver_id(int n);
+  		- void show_chat(int num);
+  		- void add_message(string message, int num);
+ 		- void erase();
+   		```
