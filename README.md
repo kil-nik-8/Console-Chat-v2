@@ -37,18 +37,19 @@
 	(ключом является ID собеседника, значением - адрес (указатель) нужного чата);
 	```
   2. Методы:
-	2.1. Геттеры и сеттеры:
-     	```
-  	 - void setName(string username);
-   	 - void setPassword(char* password, uint pass_length);
-  	 - void setPassword(string pass);
-  	 - void setPassword(uint* pass);
-  	 - void setID(int id);
-  	 - string getName() const;
-  	 - uint* getPassword() const;
-  	 - int getID() const;
-  	 - void set_chat(Chat* chat, int position) ← добавление указатель на чат в словарь чатов пользователя.
-		```
+
+  	2.1. Геттеры и сеттеры:
+  	```
+  	- void setName(string username);
+   	- void setPassword(char* password, uint pass_length);
+  	- void setPassword(string pass);
+  	- void setPassword(uint* pass);
+  	- void setID(int id);
+  	- string getName() const;
+  	- uint* getPassword() const;
+  	- int getID() const;
+  	- void set_chat(Chat* chat, int position) ← добавление указатель на чат в словарь чатов пользователя.
+	```
   
 	2.2. Дополнительный функционал:
   	```
@@ -57,4 +58,4 @@
   	- void show_chat(int num) ← вывод сообщений чата с пользователем с ID = num на экран консоли;
   	- void add_message(string message, int num) ← добавление сообщения в чат от пользователя с ID = num;
  	- void erase() - очистка полей класса;
-   		```	
+   	```	
