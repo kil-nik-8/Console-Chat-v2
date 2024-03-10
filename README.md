@@ -37,7 +37,7 @@
 	(ключом является ID собеседника, значением - адрес (указатель) нужного чата);
 	```
   2. Методы:
-  	2.1. Геттеры и сеттеры:
+     2.1. Геттеры и сеттеры:
   	```
   	- void setName(string username);
    	- void setPassword(char* password, uint pass_length);
